@@ -89,7 +89,21 @@ drawer.addEventListener('draweropen', function(e) {
 ```
 
 
-## Troubleshooting: Android support library version (only for Ti SDK < 3.3.0)
+## Troubleshooting: 
+
+### DrawerLayout must be measured with MeasureSpec.EXACTLY
+
+Make sure you have defined the `width` and `height` when creating the drawer:
+
+```
+var drawer = TiDrawerLayout.createDrawer({
+    ...
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL
+});
+```
+
+###Android support library version (only for Ti SDK < 3.3.0)
 
 Check android support library v4 version in the titanium sdk installation,
 and replace android support v4 library jar file to the latest version.
