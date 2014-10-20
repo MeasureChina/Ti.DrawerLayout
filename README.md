@@ -1,3 +1,16 @@
+
+## This repo is stopped to maintain (until December, 2014)
+
+Recently I have really busy days,
+and I hope I can come back in the end of this year.
+
+Sorry for the inconveniences.
+
+Please check this folk (Thanks @manumaticx)
+https://github.com/manumaticx/Ti.DrawerLayout
+
+
+
 Ti.DrawerLayout
 ===============
 
